@@ -88,7 +88,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/32064142996/')
+os.system('xdg-open https://facebook.com/groups/3206414299669908/')
 logo =("""\x1b[1;97m
 d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
@@ -96,7 +96,7 @@ d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 88`8b   88~~~88 88~~~     `Y8b. 88~~~88 88 V8o88 
 88 `88. 88   88 88      db   8D 88   88 88  V888 
 88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
-========================================
+===================================================
 [√] AUTHOR  : RAFSAN AHAMMED RAFI
 [√] FACEBOOK: MD. ARIF MIA
 [√] GITHUB  : R4FSAN-143
@@ -104,7 +104,7 @@ d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 [×]TOOLS   : AUTO CRACK
 [√] Stetus  : FREE
 [★]VIRSION  : 0.1.5
-===================================""") 
+====================================================""") 
 loop = 0
 oks = []
 cps = []
