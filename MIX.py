@@ -101,7 +101,7 @@ d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 [√] FACEBOOK: MD. ARIF MIA
 [√] GITHUB  : R4FSAN-143
 [√] WATHAPP : 0130xxxxx54
-[×]TOOLS   : AUTO CRACK
+[√] TOOLS   : AUTO CRACK
 [√] Stetus  : FREE
 [★]VIRSION  : 0.1.5
 ====================================================""") 
