@@ -168,7 +168,7 @@ def xxr():
     os.system("clear")
     print(logo)
     print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m017,\033[38;5;195m018{x}')
-    print(f' ===============================================')
+    print(f' ===================================================')
     rk1 = '0171'
     rk2 = '0172'
     rk3 = '0175'
@@ -191,13 +191,13 @@ def xxr():
     with ThreadPool(max_workers=50) as manshera:
         clear()
         tl = str(len(user))
-        jalan(' ===============================================')
+        jalan(' ===================================================')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m YOUR TOTAL IDS: \033[38;5;46m'+tl)
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m PLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m USE YOUR MOBILE DATA ')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m Use Flight Mode For Speed Up')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m TEAM TIGER SPAMMING SQUAD')
-        jalan(' ===============================================')
+        jalan(' ===================================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x} [{xr}HASAN{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x} [{xr}R4FSAN-XD{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
