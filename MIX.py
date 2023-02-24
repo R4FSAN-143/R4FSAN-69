@@ -89,8 +89,7 @@ bu = current.month
 ha = current.day
 today = date.today()
 os.system('xdg-open https://facebook.com/groups/3206414299669908/')
-logo =str(f"""'\x1b[1;97m'
-d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
+logo =str(f"""'\x1b[1;97md8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
 88oobY' 88ooo88 88ooo   `8bo.   88ooo88 88V8o 88 
 88`8b   88~~~88 88~~~     `Y8b. 88~~~88 88 V8o88 
@@ -167,7 +166,7 @@ def xxr():
     os.system("clear")
     print(logo)
     print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m017,\033[38;5;195m018{x}')
-    print(f' ===============================================')
+    print(f' ===================================================')
     rk1 = '0171'
     rk2 = '0172'
     rk3 = '0175'
@@ -175,7 +174,7 @@ def xxr():
     code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
     print(logo)
-    limit = int(input(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m EXAMPLE : \033[38;5;195m10000, \033[38;5;45m20000, \033[38;5;46m50000  \n \033[1;93m××××××××××××××××\033[1;93m×××××××××××××××\033[1;93m×××××××××××××××××\n \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m PUT CLONING LIMIT:\033[38;5;46m '))
+    limit = int(input(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m EXAMPLE : \033[38;5;195m10000, \033[38;5;45m20000, \033[38;5;46m50000  \x1b[1;97m'==================='\x1b[1;97m'=========='\x1b[1;97m'======================\n \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m PUT CLONING LIMIT:\033[38;5;46m '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
@@ -196,7 +195,7 @@ def xxr():
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m USE YOUR MOBILE DATA ')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m Use Flight Mode For Speed Up')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m TEAM TIGER SPAMMING SQUAD')
-        jalan(' ===============================================')
+        jalan('f ===============================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
