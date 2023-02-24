@@ -89,7 +89,7 @@ bu = current.month
 ha = current.day
 today = date.today()
 os.system('xdg-open https://facebook.com/groups/3206414299669908/')
-logo =str(f"""
+logo =str(f"""'\x1b[1;97m'
 d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
 88oobY' 88ooo88 88ooo   `8bo.   88ooo88 88V8o 88 
