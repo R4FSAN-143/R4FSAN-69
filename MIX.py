@@ -1,6 +1,3 @@
-#Gift By ASRAFUL ISLAM HASAN
-#Group: HASAN TERMUX HALPING ZONE
-# 2nd Group : HASAN SCRIPT AND ID GIFT ZONE
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -92,7 +89,7 @@ bu = current.month
 ha = current.day
 today = date.today()
 os.system('xdg-open https://facebook.com/groups/32064142996CRAC/')
-logo =("""\033[0;92m
+logo =("""
   d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
 88oobY' 88ooo88 88ooo   `8bo.   88ooo88 88V8o 88 
