@@ -196,7 +196,7 @@ def xxr():
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m USE YOUR MOBILE DATA ')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;195m Use Flight Mode For Speed Up')
         jalan(f' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;46m TEAM TIGER SPAMMING SQUAD')
-        jalan('    x1b[1;97m===================================================')
+        jalan('  \x1b[1;97m===================================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
